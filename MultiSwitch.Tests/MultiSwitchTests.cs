@@ -1,8 +1,8 @@
 ﻿using System;
 using NUnit.Framework;
-using MultiSwitch;
+using MultiSwitchHelper;
 
-namespace MultiSwitch.Tests
+namespace MultiSwitchTests
 {
     [TestFixture]
     public class MultiSwitchTests
