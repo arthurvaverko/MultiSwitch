@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MultiSwitch</id>
+    <version>1.0.0</version>
+    <authors>Arthur Vaverko</authors>
+    <owners>Arthur Vaverko</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/arthurvaverko/MultiSwitch</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      A fluent api that will help you to match patterns of primitives.
+      So basically a switch statement with multiple variables.
+    </description>
+    <releaseNotes>Initial publish</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Switch MultiSwitch Multiple Variables Switch Statement</tags>
+  </metadata>
+	<files>
+		<file src="MultiSwitch\bin\Release\MultiSwitch.dll" target="lib\MultiSwitch.dll" />
+	</files>
+</package>

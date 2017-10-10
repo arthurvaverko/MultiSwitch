@@ -1,6 +1,6 @@
 # MultiSwitch
 A fluent api that will help you to match patterns of primitives.
-So besically a switch statment with multiple variables.
+So basically a switch statement with multiple variables.
 
 Inspired by @anton-gogolev at https://stackoverflow.com/a/7967689/605129
 

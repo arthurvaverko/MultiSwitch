@@ -10,6 +10,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E1A63A03-F649-42A5-84DF-DDDA24C1C258}"
 	ProjectSection(SolutionItems) = preProject
 		LICENSE = LICENSE
+		nuget.exe = nuget.exe
+		Package.nuspec = Package.nuspec
 		README.md = README.md
 	EndProjectSection
 EndProject
