@@ -1,4 +1,4 @@
-#MultiSwitch
+# MultiSwitch
 A fluent api that will help you to match patterns of primitives.
 So besically a switch statment with multiple variables.
 
