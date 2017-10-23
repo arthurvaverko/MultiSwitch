@@ -46,5 +46,21 @@ namespace MultiSwitchTests
 
             Assert.That(defaultWasExecuted);
         }
+
+        [Test]
+        public void ShouldNotExecuteDefault()
+        {
+            const int i = 1;
+            const int j = 34;
+            const bool k = true;
+            MultiSwitch.Match(i, j, k).
+                With(1, 2, false).Do(() => Console.WriteLine("1, 2, 3")).
+                With(1, 34, true).Do(() => Console.WriteLine("1, 34, true")).
+                Default(() =>
+                {
+                    throw new Exception("This should not be called");
+                });
+
+        }
     }
 }

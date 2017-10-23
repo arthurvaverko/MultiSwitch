@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>MultiSwitch</id>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <authors>Arthur Vaverko</authors>
     <owners>Arthur Vaverko</owners>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
@@ -12,7 +12,7 @@
       A fluent api that will help you to match patterns of primitives.
       So basically a switch statement with multiple variables.
     </description>
-    <releaseNotes>Initial publish</releaseNotes>
+    <releaseNotes>Fixed issue where Default would always run, regardless if one of the other matches was true.</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Switch MultiSwitch Multiple Variables Switch Statement</tags>
   </metadata>

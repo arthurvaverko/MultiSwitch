@@ -49,13 +49,13 @@ namespace MultiSwitchHelper
             {
                 _MultiSwitch = matcher;
                 _MatchedValues = valuesToTestForMatch;
+                IsMatch = _MultiSwitch.Values.SequenceEqual(_MatchedValues);
             }
 
             public MultiSwitch Do(Action actionToInvokeIfMatch)
             {
-                if (_MultiSwitch.Values.SequenceEqual(_MatchedValues))
+                if (IsMatch)
                 {
-                    IsMatch = true;
                     actionToInvokeIfMatch();
                 }
 
